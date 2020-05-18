@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+
+header {
+  background-color: cornflowerblue;
+  padding: 1em;
+}
+
+#header-title {
+  font-family: Asap;
+  text-align: center;
+  color: #000;
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.timer {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 5rem;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.buttons button {
+  border: none;
+  margin-right: 2em;
+}
+
+span {
+  color: crimson;
+}
