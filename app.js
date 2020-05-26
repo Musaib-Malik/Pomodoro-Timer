@@ -15,6 +15,8 @@ restartBtn.addEventListener("click", restartTimer);
 
 // Start Timer
 function startTimer() {
+  document.querySelector('audio').play()
+
   if (startPause === 0) {
     startBtn.textContent = "Pause";
 
@@ -34,6 +36,7 @@ function startTimer() {
       minutes.textContent = minute;
     }, 1000);
   } else {
+    document.querySelector('audio').pause()
     clearInterval(startPause);
     startBtn.textContent = "Resume";
     startPause = 0;
